@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import os
 
 
-pages = int(input())
-subject = input()
+pages = int(input("Please enter page number to look from 1 to:"))
+subject = input("Please enter subject: ")
 
 for page in range(1, pages + 1):
     os.mkdir(os.path.join(os.getcwd(), f"Page_{page}"))
