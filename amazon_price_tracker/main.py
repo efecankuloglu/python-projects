@@ -9,8 +9,8 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"
 }
 
-TELEGRAM_TOKEN = "5319529898:AAFkhZDtutK2tbTuCRL7AFP-gqTIEhq-p0c"
-TELEGRAM_USERID = "1026625311"
+TELEGRAM_TOKEN = ""
+TELEGRAM_USERID = ""
 
 response = requests.get(URL, headers=headers)
 
